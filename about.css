@@ -1,0 +1,59 @@
+*{
+    color: white;
+}
+.about{
+    background-color: #A64D79;
+  }
+.box-container{
+    background-color: rgba(59,28,50,0.5);
+    font-family: verdana;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin:auto;
+    margin-top: 25px;
+    top: 10%;
+    margin-bottom: 50px;
+    border-radius: 3em;
+    padding: 20px;
+}
+.box-container h1{
+    font-weight: 1000;
+}
+.title-1{
+    text-align: center;
+    width: 200%;
+    padding-right: 5px;
+}
+.text1{
+    font-size: 18px;
+}
+.title-2{
+    text-align: center;
+    width: 113%;
+    padding-right: 5px;
+}
+.title-3{
+    text-align: center;
+    width: 58%;
+    padding-right: 5px;
+}
+.title-4{
+    text-align: center;
+    width: 42%;
+    padding-right: 5px;
+}
+.title-5{
+    text-align: center;
+    width: 42%;
+    padding-right: 5px;
+}
+.members-h1{
+    color: white;
+    font-weight: 1000;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.members-img{
+    margin: auto;
+}
