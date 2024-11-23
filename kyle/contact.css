@@ -1,0 +1,164 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    background-color: #A64D79;
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #ffffff;
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Main container */
+.contact-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: rgba(59,28,50,0.5);;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contact-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+/* Responsive Styles */
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info {
+        flex: 1;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-form h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+/* Tablet (min-width: 600px) and up */
+@media (min-width: 601px) and (max-width: 900px) {
+    .contact-container {
+        padding: 30px;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    header p {
+        font-size: 1.1rem;
+    }
+
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        flex: 1;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+/* Desktop (min-width: 900px) */
+@media (min-width: 900px) {
+    .contact-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact-info {
+        flex: 1;
+        padding-right: 20px;
+    }
+
+    .contact-form {
+        flex: 2;
+    }
+}
